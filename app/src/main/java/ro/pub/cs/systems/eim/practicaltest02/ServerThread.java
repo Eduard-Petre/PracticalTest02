@@ -5,7 +5,6 @@ import android.util.Log;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.HashMap;
 
 public class ServerThread extends Thread{
     private ServerSocket serverSocket = null;

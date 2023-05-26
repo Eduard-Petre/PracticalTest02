@@ -49,7 +49,7 @@ public class CommunicationThread extends Thread{
             if (checkOperand1 != op1) {
 
                 // Send the result back to the client
-                printWriter.println("Result is over allowed maximum");
+                printWriter.println("overflow");
                 printWriter.flush();
             } else {
 
